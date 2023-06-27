@@ -4,12 +4,12 @@ It is a REST API-based social network in Django where Users can sign up and crea
 # Setup
 Clone the repository and then move to the 'social-media-app' branch using the following command
 
-            **git checkout social-media-app**
+            git checkout social-media-app
 
 ### Local Environment Configurations
 •	Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
 
-           **pip install –r requirements.txt**
+           pip install –r requirements.txt
 
 •	After that create a database in Postgresql with the name “social-media”. 
 
@@ -17,20 +17,20 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 
 •	Create a .env file and set the environment variables according to your need. For example,
 
-            **IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
+            IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
             SQL_HOST=localhost
             SQL_PORT=5432
             SQL_USER=postgres
             SQL_PASSWORD=12345678
-            SQL_DATABASE=social-media**
+            SQL_DATABASE=social-media
 
 •	Django uses database migrations to manage database schema changes. Run the following command to apply any pending migrations:
 
-            **python manage.py migrate**
+            python manage.py migrate
 
 •	Use the following command to start the Django development server
 
-            **python manage.py migrate**
+            python manage.py migrate
 
 •	Django app should now be running. You can access it by opening a web browser and visiting ** http://localhost:8000/**
 
