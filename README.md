@@ -96,7 +96,8 @@ Delete Posts
 
 
 ## Swagger Docs URL
-After the app is started, go to the Swagger docs URL using
+After the app is started, go to the Swagger docs URL
+
 For docker:	
 
 	http://0.0.0.0:8000/swagger/
