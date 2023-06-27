@@ -1,7 +1,7 @@
 # SOCIAL MEDIA APP
 It is a REST API-based social network in Django where Users can sign up and create text posts, as well as view, like, and unlike other Users posts.
 
-# Setup
+## Setup
 Clone the repository and then move to the 'social-media-app' branch using the following command
 
 	git checkout social-media-app
@@ -66,7 +66,7 @@ Django app should now be running. You can access it by opening a web browser and
 
 
 
-# API Endpoints:
+## API Endpoints:
 Register
 	http://localhost:8000/api/posts/register/
 
@@ -95,7 +95,7 @@ Delete Posts
 	http://localhost:8000/api/posts/posts/{id}/
 
 
-# Swagger Docs URL
+## Swagger Docs URL
 After the app is started, go to the Swagger docs URL using
 For docker:	
 
@@ -107,4 +107,4 @@ For localhost:
 
 This URL contains all the API requests going toward the backend along with the example of the required JSON format with every API.
 
-# Run Test Cases
+## Run Test Cases
