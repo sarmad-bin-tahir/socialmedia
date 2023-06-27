@@ -32,9 +32,9 @@ Use the following command to start the Django development server
 
 	python manage.py runserver
 
-The Django app should now be running. You can access it by opening a web browser and visiting ** http://localhost:8000/**
+The Django app should now be running. You can access it by opening a web browser and visiting
 
-
+	http://localhost:8000/
 
 ### Docker Configurations
 After that create a database in Postgresql with the name “social-media”. 
