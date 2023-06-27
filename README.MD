@@ -4,7 +4,7 @@ It is a REST API-based social network in Django where Users can sign up and crea
 ## Setup
 Clone the repository and then move to the 'social-media-app' branch using the following command
 
-	git checkout social-media-app
+	git checkout dev-sarmad
 
 ### Local Environment Configurations
 Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
@@ -50,6 +50,10 @@ Create a .env file and set the environment variables according to your need. For
 	SQL_PASSWORD=""
 	SQL_DATABASE=""
 
+Now build and run the container using
+
+	docker-compose up -d –build
+
 To migrate the new PostgreSQL database running in Docker execute the following command:
 
 	docker-compose exec web python manage.py migrate
@@ -57,10 +61,6 @@ To migrate the new PostgreSQL database running in Docker execute the following c
 If you wanted to run createsuperuser you'd also prefix it with docker-compose exec web. So:
 
 	docker-compose exec web python manage.py createsuperuser
-
-Now build and run the container using
-
-	docker-compose up -d –build
 
 Django app should now be running. You can access it by opening a web browser and visiting 
 
