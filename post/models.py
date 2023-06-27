@@ -19,10 +19,3 @@ class PostLikeUnlike(models.Model):
     post_id = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="post_like_unlike", default=None)
     user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user_like_unlike", default=None, null=True)
     reaction = models.BooleanField(default=False)
-
-
-class PostLikeUnlike11(models.Model):
-    post_id = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="post_like_unlike111", default=None)
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user_like_unlike111", default=None, null=True)
-    reaction = models.BooleanField(default=False)
-
