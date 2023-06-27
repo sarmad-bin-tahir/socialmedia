@@ -42,12 +42,13 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 •	In the terminal or command prompt, navigate to the directory where your Django project is located.
 
 •	Create a .env file and set the environment variables according to your need. For example,
+
 	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
 	SQL_HOST=db
 	SQL_PORT=5432
 	SQL_USER=postgres
 	SQL_PASSWORD=12345678
-	SQL_DATABASE=social-media	
+	SQL_DATABASE=social-media
 
 •	To migrate the new PostgreSQL database running in Docker execute the following command:
 
