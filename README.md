@@ -4,9 +4,9 @@ It is a REST API-based social network in Django where Users can sign up and crea
 # Setup
 Clone the repository and then move to the 'social-media-app' branch using the following command
 
-$ your-command-here
+  your-command-here
 
-$ git checkout social-media-app
+  git checkout social-media-app
 
 ### Local Environment Configurations
 •	Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
