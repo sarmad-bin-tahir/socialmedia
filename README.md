@@ -30,7 +30,7 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 
 •	Use the following command to start the Django development server
 
-	python manage.py migrate
+	python manage.py runserver
 
 •	Django app should now be running. You can access it by opening a web browser and visiting ** http://localhost:8000/**
 
