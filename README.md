@@ -6,7 +6,7 @@ Clone
 •	Clone the repository and then move to the 'social-media-app' branch using the following command
 $ git checkout social-media-app
 
-## Local Environment Configurations
+### Local Environment Configurations
 •	Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
 
 pip install –r requirements.txt
