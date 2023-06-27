@@ -99,7 +99,7 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 After the app is started, go to the Swagger docs URL using
 For docker:	
 
-	http://0.0.0.1:8000/swagger/
+	http://0.0.0.0:8000/swagger/
 
 For localhost:	
  
