@@ -62,8 +62,9 @@ Now build and run the container using
 
 	docker-compose up -d –build
 
-Django app should now be running. You can access it by opening a web browser and visiting http://0.0.0.0:8000/
+Django app should now be running. You can access it by opening a web browser and visiting 
 
+http://0.0.0.0:8000/
 
 
 ## API Endpoints:
