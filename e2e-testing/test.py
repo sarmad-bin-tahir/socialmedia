@@ -36,12 +36,7 @@ def test_register():
         "password2": "Bella112233"
     }
     response = requests.post(url, data=data)
-    if response.status_code == 200:
-        # Print the response content
-        assert (response.json())
-    else:
-        # Handle the error
-        assert ("Error: {0}".format(response.status_code))
+    assert response.status_code == 200
 
 
 def test_valid_login():
