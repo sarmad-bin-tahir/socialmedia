@@ -97,9 +97,13 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 
 # Swagger Docs URL
 After the app is started, go to the Swagger docs URL using
-	For docker:	http://0.0.0.1:8000/swagger/
+For docker:	
 
-	For localhost:	http://localhost:8000/swagger/
+	http://0.0.0.1:8000/swagger/
+
+For localhost:	
+ 
+ 	http://localhost:8000/swagger/
 
 This URL contains all the API requests going toward the backend along with the example of the required JSON format with every API.
 
