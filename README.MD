@@ -17,12 +17,12 @@ In the terminal or command prompt, navigate to the directory where your Django p
 
 Create a .env file and set the environment variables according to your need. For example,
 
-	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
-	SQL_HOST=localhost
-	SQL_PORT=5432
-	SQL_USER=postgres
-	SQL_PASSWORD=12345678
-	SQL_DATABASE=social-media
+	IP_GEO_LOCATION_API_KEY=""
+	SQL_HOST=""
+	SQL_PORT=""
+	SQL_USER=""
+	SQL_PASSWORD=""
+	SQL_DATABASE=""
 
 Django uses database migrations to manage database schema changes. Run the following command to apply any pending migrations:
 
@@ -43,12 +43,12 @@ In the terminal or command prompt, navigate to the directory where your Django p
 
 Create a .env file and set the environment variables according to your need. For example,
 
-	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
-	SQL_HOST=db
-	SQL_PORT=5432
-	SQL_USER=postgres
-	SQL_PASSWORD=12345678
-	SQL_DATABASE=social-media
+	IP_GEO_LOCATION_API_KEY=""
+	SQL_HOST=""
+	SQL_PORT=""
+	SQL_USER=""
+	SQL_PASSWORD=""
+	SQL_DATABASE=""
 
 To migrate the new PostgreSQL database running in Docker execute the following command:
 
@@ -110,3 +110,11 @@ For localhost:
 This URL contains all the API requests going toward the backend along with the example of the required JSON format with every API.
 
 ## Run Test Cases
+ First we need to run following command to export settings variables:
+
+ 	export DJANGO_SETTINGS_MODULE=SocialMediaApp.settings  
+
+ Then run the following command to run the test cases:
+
+ 	pytest
+
