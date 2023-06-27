@@ -7,15 +7,15 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 	git checkout social-media-app
 
 ### Local Environment Configurations
-•	Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
+Configure the Python virtual environment and then install all the dependencies available in the requirements.txt file using the following command
 
 	pip install –r requirements.txt
 
-•	After that create a database in Postgresql with the name “social-media”. 
+After that create a database in Postgresql with the name “social-media”. 
 
-•	In the terminal or command prompt, navigate to the directory where your Django project is located.
+In the terminal or command prompt, navigate to the directory where your Django project is located.
 
-•	Create a .env file and set the environment variables according to your need. For example,
+Create a .env file and set the environment variables according to your need. For example,
 
 	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
 	SQL_HOST=localhost
@@ -24,24 +24,24 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 	SQL_PASSWORD=12345678
 	SQL_DATABASE=social-media
 
-•	Django uses database migrations to manage database schema changes. Run the following command to apply any pending migrations:
+Django uses database migrations to manage database schema changes. Run the following command to apply any pending migrations:
 
 	python manage.py migrate
 
-•	Use the following command to start the Django development server
+Use the following command to start the Django development server
 
 	python manage.py runserver
 
-•	Django app should now be running. You can access it by opening a web browser and visiting ** http://localhost:8000/**
+The Django app should now be running. You can access it by opening a web browser and visiting ** http://localhost:8000/**
 
 
 
-## Docker Configurations
-•	After that create a database in Postgresql with the name “social-media”. 
+### Docker Configurations
+After that create a database in Postgresql with the name “social-media”. 
 
-•	In the terminal or command prompt, navigate to the directory where your Django project is located.
+In the terminal or command prompt, navigate to the directory where your Django project is located.
 
-•	Create a .env file and set the environment variables according to your need. For example,
+Create a .env file and set the environment variables according to your need. For example,
 
 	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
 	SQL_HOST=db
@@ -50,48 +50,48 @@ Clone the repository and then move to the 'social-media-app' branch using the fo
 	SQL_PASSWORD=12345678
 	SQL_DATABASE=social-media
 
-•	To migrate the new PostgreSQL database running in Docker execute the following command:
+To migrate the new PostgreSQL database running in Docker execute the following command:
 
 	docker-compose exec web python manage.py migrate
 
-•	If you wanted to run createsuperuser you'd also prefix it with docker-compose exec web. So:
+If you wanted to run createsuperuser you'd also prefix it with docker-compose exec web. So:
 
 	docker-compose exec web python manage.py createsuperuser
 
-•	Now build and run the container using
+Now build and run the container using
 
 	docker-compose up -d –build
 
-•	Django app should now be running. You can access it by opening a web browser and visiting http://0.0.0.0:8000/
+Django app should now be running. You can access it by opening a web browser and visiting http://0.0.0.0:8000/
 
 
 
 # API Endpoints:
-•	Register
+Register
 	http://localhost:8000/api/posts/register/
 
-•	Login 
+Login 
 	http://localhost:8000/api/posts/login/
 
-•	Get User Details
+Get User Details
 	http://localhost:8000/api/posts/get-user-details/
 
-•	Like-Unlike Posts
+Like-Unlike Posts
         http://localhost:8000/api/posts/like-unlike/
 
-•	List of Posts
+List of Posts
 	http://localhost:8000/api/posts/posts/
 
-•	Create Posts
+Create Posts
 	http://localhost:8000/api/posts/posts/
 
-•	Read Posts
+Read Posts
 	http://localhost:8000/api/posts/posts/{id}/
 	
-•	Update Posts
+Update Posts
 	http://localhost:8000/api/posts/posts/{id}/
 
-•	Delete Posts
+Delete Posts
 	http://localhost:8000/api/posts/posts/{id}/
 
 
