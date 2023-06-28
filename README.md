@@ -17,7 +17,7 @@ In the terminal or command prompt, navigate to the directory where your Django p
 
 Create a .env file and set the environment variables according to your need. For example,
 
-	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
+	IP_GEO_LOCATION_API_KEY=""
 	SQL_HOST=localhost
 	SQL_PORT=5432
 	SQL_USER=postgres
@@ -43,7 +43,7 @@ In the terminal or command prompt, navigate to the directory where your Django p
 
 Create a .env file and set the environment variables according to your need. For example,
 
-	IP_GEO_LOCATION_API_KEY="972666ebe6d54495992bce61d1c99a8f"
+	IP_GEO_LOCATION_API_KEY=""
 	SQL_HOST=db
 	SQL_PORT=5432
 	SQL_USER=postgres
